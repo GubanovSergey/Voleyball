@@ -1,3 +1,5 @@
 *.save
 *.out
 *~
+*.o
+*.exe
