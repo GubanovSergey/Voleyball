@@ -11,6 +11,7 @@ public:
     //0 is x and 1 is y
 	virtual void log_object(std::ostream & where, char ender = '\n', char sep = ' ') {
 		where << get_coord(0) << sep << get_coord(1) << ender;
+		where.flush();
 	}
     virtual void update (double dt) {}
     virtual ~Object () {}
